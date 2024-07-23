@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doutya Technologies</title>
+    <link rel="icon" type="image/x-icon" href="/images/imagesss.ico">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <style>
+      .swiper {
+        position: relative;
+        width: 70vw;
+        height: 50vh;
+        transform: translateY(50px);
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="page1">
+        <video muted loop autoplay src="./images/bagvideo.mp4"></video>
+        <div id="page1-content">
+          <nav>
+            <div id="nav-1">
+              <img src="/images/logod.png" alt="Doutya Technologies Logo" />
+              <h1>Doutya Technologies</h1>
+            </div>
+            <!-- <div id="nev-search">        
+                        <input type="search" placeholder="Search...">
+                        <a id="searchbar" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div> -->
+            <div id="nav-part2">
+              <h4><a href="#">Services</a></h4>
+              <h4><a href="login.html">Log in/Sign in</a></h4>
+              <h4><a href="about.html">About us</a></h4>
+              <h4><a href="contact.html">Contact us</a></h4>
+            </div>
+          </nav>
+          <div id="optionsinside">
+            <h1
+              style="
+                color: #ffffff65;
+                font-family: Poppins;
+                font-size: 70px;
+                transform: translateX(10px);
+                transform: translateY(45px);
+              "
+            >
+              Empowering your vision <br />
+              with innovative technology <br />solutions
+            </h1>
+
+            <div
+              id="buttonxx"
+              style="transform: translateY(170px); text-align: center"
+            >
+              <a
+                onclick="toourmenu()"
+                style="
+                  --clr: rgba(255, 255, 255, 0.507);
+                  transition: 1s;
+                  cursor: pointer;
+                "
+                ><span style="font-size: 4vh">Services </span><i></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page2">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/images/Untitled design.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/websolution.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Untitled design (1).png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Untitled design (2).png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Untitled design (3).png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Untitled design (1).png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/websolution.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Untitled design (1).png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/Untitled design (2).png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="services-container">
+          <h3
+            class="link link-underline link-underline-black text-black"
+            style="color: #fff; font-size: 35px; display: inline-block"
+          >
+            Services
+          </h3>
+        </div>
+      </div>
+      <div id="page3">
+        <h1
+          class="link link-underline link-underline-black text-black"
+          style="color: #fff; display: inline-block; text-align: center"
+        >
+          Our Services
+        </h1>
+
+        <!-- <button id="slideToPage2">Go to Page 2</button> -->
+
+        <div class="elem">
+          <div class="overlay"></div>
+
+          <h3 style="margin-top: 3%; font-size: 5vh; font-weight: 100">
+            <a
+              href="introduction.html"
+              style="text-decoration: none; color: #ffffff"
+              >Mobile App</a
+            >
+          </h3>
+        </div>
+        <div class="elem">
+          <div class="overlay"></div>
+          <h3 style="margin-top: 3%; font-size: 5vh; font-weight: 100">
+            <a
+              href="introduction.html"
+              style="text-decoration: none; color: #ffffff"
+              >Data</a
+            >
+          </h3>
+        </div>
+        <div class="elem">
+          <div class="overlay"></div>
+          <h3 style="margin-top: 3%; font-size: 5vh; font-weight: 100">WEB</h3>
+        </div>
+        <div class="elem">
+          <div class="overlay"></div>
+          <h3 style="margin-top: 3%; font-size: 5vh; font-weight: 100">AI</h3>
+        </div>
+        <div class="elem">
+          <div class="overlay"></div>
+          <h3 style="margin-top: 1%; font-size: 5vh; font-weight: 100">ML</h3>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer-content">
+        <div id="footer-about" class="footer-section">
+          <h4>About Doutya Technologies</h4>
+          <p>Information about the company.</p>
+        </div>
+        <div id="footer-links" class="footer-section">
+          <h4>Quick Links</h4>
+          <ul style="display: flex; gap: 1vw">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">Services</a></li>
+            <li><a href="introduction.html">About us</a></li>
+            <li><a href="index.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div id="footer-contact" class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@doutya.com</p>
+          <p>Phone: +91 9422537403</p>
+        </div>
+      </div>
+      <div id="footer-bottom">
+        <p>&copy; 2024 Doutya Technologies. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts.js">
+                      document.addEventListener('DOMContentLoaded', function() {
+                  const footerContent = document.getElementById('footer-content');
+                  const footerSections = document.querySelectorAll('.footer-section h4');
+
+                  const observerOptions = {
+                      root: null,
+                      rootMargin: '0px',
+                      threshold: 0.1
+                  };
+
+                  const observerCallback = (entries, observer) => {
+                      entries.forEach(entry => {
+                          if (entry.isIntersecting) {
+                              footerContent.style.opacity = '1';
+                              footerContent.style.transform = 'translateY(0)';
+
+                              footerSections.forEach((section, index) => {
+                                  setTimeout(() => {
+                                      section.classList.add('slideIn');
+                                  }, index * 200);
+                              });
+                          } else {
+                              footerContent.style.opacity = '0';
+                              footerContent.style.transform = 'translateY(20px)';
+
+                              footerSections.forEach(section => {
+                                  section.classList.remove('slideIn');
+                              });
+                          }
+                      });
+                  };
+
+                  const observer = new IntersectionObserver(observerCallback, observerOptions);
+                  observer.observe(footerContent);
+      });
+    </script>
+  </body>
+</html>
